@@ -1,0 +1,82 @@
+<!-- Labels/Grouping
+● Creates a form used for catering reservations
+
+● The form contains multiple elements split into groups
+● Each element should have a label assigned to it
+First group
+● Name of the group should be "Personal data"&quot";
+● The first field is for the name
+● The second one is for the email address
+● The third is for the phone number
+Second group
+● Name of the group should be "Location";
+● It should contain fields for:
+○ City
+○ Street
+○ Street number
+
+Third group
+● Name of the group should be "Event info";
+● The first element is dropdown containing the following options:
+○ birthday
+○ wedding (should be selected by default)
+○ company
+● The second element is for getting number of expected guests and it’s
+an input type element
+● Placeholder is a number you choose -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labels/Grouping</title>
+    <form action="" style="width: 30%; margin: auto;">
+        <h3 style="text-align: center;">Enter your information</h3>
+        <fieldset>
+            <legend>Personal Data</legend>
+                <label for="FullName">Full Name:</label>
+                <input type="text" name="FullName" id="FullName" placeholder="Please enter your full name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="Email" id="Email" placeholder="Please enter your email" required>
+                <br><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" placeholder="Please enter your number" required>
+                <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Location</legend>
+                <label for="">City:</label>
+                <input type="text" name="City" id="City" placeholder="Please enter city name">
+                <br><br>
+                <label for="">Street:</label>
+                <input type="text" name="Street" id="Street" placeholder="Please enter street name">
+                <br><br>
+                <label for="">Street Number:</label>
+                <input type="text" name="Street Number" id="Street Number" placeholder="Please enter street number">
+                <br><br>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Event info</legend>
+                <select name="nesto" id="nesto">
+                    <option value="birthday">Birthday</option>
+                    <option value="wedding" selected>Wedding</option>
+                    <option value="company">Company</option>
+
+                    <label for="quantity"></label>
+                    <input type="number" name="quantity" id="quantity" min="1" max="10" placeholder="0">
+                    <br><br>
+                    <input type="submit">
+                    <input type="reset">
+                </select>
+        </fieldset>
+    </form>
+</head>
+<body>
+    
+</body>
+</html>
