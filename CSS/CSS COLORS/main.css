@@ -1,0 +1,38 @@
+.prvi {
+    color: darkturquoise;
+    background-color: firebrick;
+    opacity: 0.5;
+}
+
+.drugi{
+    color: rgb(0,206,209);
+    background-color: rgba(76, 175, 80, 0.5);
+}
+
+.treci{
+    color: #00ced1;
+    background-color: black;
+}
+
+table{
+    border: 1px solid black;
+}
+.PrvaKolona, .SestaKolona, .JedanaestaKolona{
+    background-color:aliceblue;
+}
+
+.DrugaKolona{
+    background-color: hotpink;
+}
+
+.TrecaKolona{
+    background-color: yellow;
+}
+
+.CetvrtaKolona{
+    background-color: tomato;
+}
+
+.PetaKolona{
+    background-color: blue;
+}
