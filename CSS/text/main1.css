@@ -1,0 +1,10 @@
+.prvi{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.drugi{
+    text-transform: lowercase;
+    text-decoration: line-through;
+
+}

@@ -1,0 +1,14 @@
+.prvi {
+  background-color: yellow;
+  width: 400px;
+  height: 500px;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+.drugi {
+  background-color: red;
+  width: 600px;
+  height: 300px;
+  max-height: 200px;
+}

@@ -1,0 +1,30 @@
+.first{
+    list-style-type: circle;
+}
+
+.second{
+    list-style-type: square;
+}
+
+.third{
+    list-style-type: upper-alpha;
+}
+
+.fourth {
+    list-style-type: upper-roman;
+}
+
+.fifth {
+    width: 200px;
+    list-style-image:url(https://png.pngtree.com/png-vector/20191113/ourmid/pngtree-green-check-mark-icon-flat-style-png-image_1986021.jpg
+    );
+    
+}
+
+.sixth{
+    width: 200px;
+    list-style-image: url(https://png.pngtree.com/png-vector/20191113/ourmid/pngtree-green-check-mark-icon-flat-style-png-image_1986021.jpg
+    );
+    list-style-position: inside;
+}
+

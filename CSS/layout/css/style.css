@@ -1,0 +1,44 @@
+#firstPicture{
+    position: relative;
+    top: 50px;
+    left: 100px;
+    margin-bottom: 40px;
+  
+}
+
+#secondPicture{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+#thirdPicture{
+    position: absolute;
+    bottom: 0px;
+}
+
+h2{
+    color: red;
+}
+
+h2{
+    text-align: center;
+}
+
+.button{
+    position: fixed;
+    right: 50px;
+    bottom: 0%;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.button img{
+    display: block;
+    margin: auto;
+}
+
+.container{
+    width: 600px;
+}
+

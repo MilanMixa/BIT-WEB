@@ -1,0 +1,63 @@
+body {
+    background-color: lightgrey;
+    font-family: "Arial";
+    padding: 10px;
+}
+
+.clearFix {
+    clear: left;
+}
+
+.main > li {
+    float: left; 
+}
+
+.nav {
+    background-color: orange;
+    padding: 10px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: orange;
+}
+
+ul li {
+    padding: 10px 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li.active,
+ul > li:hover {
+    background: lightgray;
+}
+
+ul li.dropdown {
+    position: relative;
+}
+
+ul li.dropdown ul {
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 200px;
+    display: none;
+}
+
+ul li.dropdown:hover ul {
+    display: block;
+}
+
+ul li.dropdown ul li {
+    background-color: white;
+}
+
+ul li.dropdown ul li:hover {
+    background-color: lightgrey;
+}

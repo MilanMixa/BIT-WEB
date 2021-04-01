@@ -1,0 +1,30 @@
+img{
+    height: 100px;
+}
+
+th{
+    background-color: rgb(200, 53, 47);
+    color: white;
+    padding: 10px 0px;
+}
+
+table{
+    margin: auto;
+    border-color:black;
+    border-collapse: collapse;
+    width: 500px;
+}
+
+td{
+    padding: 10px 0px;
+    
+}
+
+tr:nth-child(odd){
+    background-color: #eeeeee;
+}
+
+tr:hover{
+    background-color: rgb(255, 188, 64);
+}
+

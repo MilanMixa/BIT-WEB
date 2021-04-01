@@ -1,0 +1,35 @@
+*{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: 'Ranchers', cursive;
+    src:url(Ranchers-Regular.ttf);
+}
+
+/* .jedan > q{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+.dva > q{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+
+.tri > q {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tri > q > span
+ {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.jedan{
+    font-family: 'Ranchers', cursive;
+}
+
+h1{
+    font-family: 'Cormorant Unicase', serif;
+}

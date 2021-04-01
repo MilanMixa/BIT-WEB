@@ -1,0 +1,45 @@
+.prvi{
+    letter-spacing: 5px;
+    text-align:left;
+}
+
+.drugi{
+    line-height: 200%;
+    text-align: right;
+}
+
+.treci{
+    text-align: center;
+}
+
+li{
+    text-shadow: 1px 1px black; 
+}
+
+.lista1{
+color: aqua;
+}
+
+.lista2{
+color: yellow;
+}
+
+.lista3{
+color: chartreuse;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: green;
+}
+
+a:active{
+    color: blue;
+}
