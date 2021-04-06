@@ -1,0 +1,7 @@
+body{
+    background-image:url(/images_and_background/img/ethan-dow-dWaBkAWCxsA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;  /*centrira sliku*/
+    background-size: cover; 
+}
+

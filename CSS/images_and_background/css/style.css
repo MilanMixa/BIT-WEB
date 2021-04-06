@@ -1,0 +1,19 @@
+img{
+    display: block;
+}
+
+.firstImage{
+    height: 200px;
+    float: right;
+}
+
+.secondImage{
+    width: 200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.thirdImage{
+    width: 200px;
+    height: 200px;
+}
