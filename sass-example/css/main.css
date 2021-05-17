@@ -1,0 +1,11 @@
+.first {
+  border: 1px solid black; }
+  .first p {
+    color: red; }
+
+.second {
+  border: 1px solid black; }
+  .second p {
+    color: lime; }
+
+/*# sourceMappingURL=main.css.map */

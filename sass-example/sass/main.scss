@@ -1,0 +1,17 @@
+$crvena: rgb(255, 0, 0);
+$zelena:rgb(0, 255, 0);
+
+
+.first{
+    border: 1px solid black;
+    p{
+        color: $crvena;
+    }
+}
+
+.second{
+    border: 1px solid black;
+    p{
+        color: $zelena;
+    }
+}

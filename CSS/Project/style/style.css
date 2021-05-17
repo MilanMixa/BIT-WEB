@@ -1,0 +1,579 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x:hidden;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "ProjectFont";
+}
+
+@font-face {
+    font-family:"ProjectFont";
+    src: url(../fonts/Roboto-Light.ttf);
+}
+/* Header */
+
+.header > h3, ul{
+    text-align: center;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.header h3{
+    color: #777;
+}
+
+h3 > span{
+    color: #FF9801;
+    padding: 2px;
+    border: 4px solid #777;
+    border-right: none;
+}
+header ul > li{
+    padding: 10px;
+}
+
+/* header span{
+    border: 4px solid #777;
+    border-right: none;
+} */
+header h1{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+nav{
+    background-color: #7FC2F7;
+    color: azure;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.welcome{
+    background-image: url(../images/banner3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 185px 0px;
+    margin-bottom: 75px;
+}
+
+.welcome > button{
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #146EB4;
+    color: white;
+    margin-top: 20px;
+}
+
+                                /* Who we are */
+
+/* wrapper starts here */
+/* .wrapper
+{
+    padding-bottom: 90px;
+} */
+.divider
+{
+    position: relative;
+    height: 1px;
+}
+.div-transparent:before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 37%;
+    right: 5%;
+    width: 25%;
+    height: 1px;
+    background-image: linear-gradient(to right, black, rgb(48,49,51), black);
+}
+.div-arrow-down:after
+{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -7px;
+    left: calc(50% - 7px);
+    width: 14px;
+    height: 14px;
+    transform: rotate(45deg);
+    background-color: white;
+    border: 1px solid rgb(48,49,51);
+}
+
+/* wrapper ends here */
+.arrow{
+    height: 1.5vh;
+}
+
+.mainText{
+    margin: auto;
+    width: 80%;
+}
+
+.mainText> div > h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.welcomeh3, .dreamh3 {
+    color: #4FA1E1;
+    margin-top: 35px;
+}
+
+.mainText div > p {
+    padding: 30px 0px;
+}
+
+.uList{
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.uList > li {
+    padding-bottom: 20px;
+}
+
+.dreamHome{
+    margin-top: 20px;
+}
+
+.uuList{
+    text-align: left;
+}
+
+.uuList > li{
+    padding-bottom: 20px;
+}
+
+.mainImg{
+    width: 100%;
+}
+
+/* What people say */
+
+.oneClass{
+    background-color: #7FC2F7;
+    width: 90%;
+    /* height: 40vh; */
+    /* margin-top: 2vh; */
+    margin: 2vh auto;
+}
+
+.names h1{
+    text-align: center;
+    margin: 100px 0px 20px 0px;
+}
+
+.person{
+    padding: 30px;
+}
+
+/* .person h3{
+    float: left;
+} */
+
+.oneClass p{
+    clear: both;
+    padding: 30px;
+}
+
+.secondClass{
+    margin-top: 7vh;
+}
+
+.text{
+ color: white;
+}
+
+.names img{
+ 
+  border-radius: 50%;
+  border: 3px solid white;
+  padding: 7px;
+  float: left;
+  width: 14vh;
+}
+
+.williamson{
+    position: relative;
+    left: 3vw;
+    top: 4vh;
+}
+
+.williamson img{
+    border: none;
+    padding: 0px;
+    border-radius: 0px;
+    width: 107px;
+}
+
+
+
+/* Get In Touch With Us */
+
+.getIn h1{
+    margin: 40px 0px 10px 0px;
+    text-align: center;
+}
+
+.green .pink .house .blue{
+  height: 50px;
+}
+
+.squares{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 40vh;
+}
+
+.green, .pink, .blue, .house{
+    width: 50%;
+    height: 50%;
+    color: white;
+}
+
+.green{
+    background-color: #2CDD98;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pink{
+    background-color: #FF4F81;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.blue{
+    background-color: #3369E6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.adressDiv {
+    display: flex;
+    width: 70%;
+}
+
+.house{
+    background-image: url(../images/house.png);
+    background-color: #76B3E4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+
+.house img{
+    height: 100%;
+}
+
+.squares{
+    margin-top: 8vh;
+}
+
+.locationImage{
+    height: 2vh;
+}
+
+.connectImg{
+    height: 3vh;
+    margin-top: 22px;
+    margin-bottom: 23px;
+}
+
+.contactInfo{
+    display: flex;
+    align-items: center;
+}
+
+.phoneImg{
+    height: 5vh;
+}
+
+.mailimg{
+    height: 4vh;
+}
+
+/* About Us */
+
+.about{
+    margin: 0px 25px;
+}
+
+#name, #email, #phone, #message{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    /* margin: auto; */
+}
+
+#submit{
+    padding: 0vh 5vw;
+    border: none;
+    background-color: #FF9801;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.about form > input{
+    height: 4vh;
+    padding-left: 10px;
+}
+
+.about form > label{
+    margin: 20px 1px;
+}
+
+#message{
+    padding: 10px;
+}
+
+.about h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #212121;
+    padding: 50px 0px;
+    color: white;
+}
+footer > ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* .welcome {
+      position: absolute;
+      top: 0px;
+      max-height: 45vh;
+      min-height: 45vh;
+    }
+
+    .mainText{
+        position: relative;
+        margin-top: 45vh;
+    }
+
+    nav{
+        z-index: 5000;
+        position: absolute;
+        top: 0px;
+        display: flex;
+        flex-flow: row;
+        background-color: transparent;
+    } */
+
+    .welcome{
+        background-image: none;
+    }
+
+     /* HEADER tablet version */
+
+    .header{
+        background-image: url(../images/banner3.jpg);
+        background-size: cover;
+    }
+
+    .header h1{
+        color: white;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header h3{
+        float: left;
+        margin-top: 25px;
+        margin-left: 20px;
+        color: white;
+    }
+    
+    h3 > span{
+        color: #FF9801;
+        padding: 2px;
+        border: 4px solid white;
+        border-right: none;
+    }
+    
+
+    nav{
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    header ul{
+        display: flex;
+    }
+
+    header ul > li {
+        padding: 10px;
+        /* display: inline; */
+    }
+
+    /* Who we are tablet version */
+
+    .divZaflex{
+        display: flex;
+        margin-top: 5vh;
+    }
+
+    .mainImg{
+        margin-top: 4vh;
+
+    }
+
+    .dreamh3{
+        margin-top: -3vh;
+
+    }
+
+    /* What people say tablet version */
+    .names{
+        margin: 0 5vw;
+    }
+
+    .oneClass{
+        
+        margin: 0px;
+        width: 49%;
+    }
+
+    /* .jennifer{
+        margin-left: 15px;
+    } */
+
+    .selena{
+         margin-top: 15px;
+    } 
+
+     /* .emptyClass{
+        width: 50%;
+    } */
+    .divZaFlex2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 3vh;
+    }
+
+    /* MAIL US tablet version */
+
+    .mainForm{
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+    } 
+
+    /* ABOUT US tablet version */
+
+    .form{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    /* .form #email {
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }    */
+
+    .form input{
+        width: 32% !important;
+    }
+
+    textarea{
+        margin-top: 25px;
+    }
+
+    @media only screen and (min-width: 1200px){
+        .divZaFlex2{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 3vh;
+            flex-wrap: nowrap;
+        }
+
+        .secondClass{
+            margin-top: 0px;
+        }
+
+        .oneClass {
+            margin-left: 15px;
+        }
+
+        .selena{
+            margin-top: 0px;
+        }
+
+        .squares {
+            display: flex;
+            width: 100vw;
+            height: 20vh;
+            margin-top: 8vh;
+        }
+
+        .green, .pink, .blue, .house {
+            width: 25%;
+            height: 100%;
+            color: white;
+        }
+
+        .mainForm{
+            display: flex;
+            justify-content: center;
+        }
+
+        .form{
+            width: 50%;
+            margin-top: 25px;
+        } 
+
+        /* .form #email{
+            margin-left: 0.5vw;
+            margin-right: 0.5vw;
+        } */
+        .glavni{
+            display: flex;
+            align-items: baseline;
+        }
+
+        .dreamHome{
+            margin-left: 23px;
+        }
+    }
+
+}
