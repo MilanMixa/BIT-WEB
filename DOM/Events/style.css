@@ -1,0 +1,20 @@
+.red-button{
+    background-color: red;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+}
+
+.yellow-button {
+    background-color: rgb(226, 206, 21);
+    padding: 12px 20px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 16px;
+    color: white;
+}
+
+.bg-color {
+    background-color: red;
+}
