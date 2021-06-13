@@ -4,6 +4,8 @@
     border-radius: 10px;
     border-style: none;
     color: white;
+    display: block;
+    margin: 20px auto;
 }
 
 .yellow-button {
@@ -13,6 +15,8 @@
     border-style: none;
     font-size: 16px;
     color: white;
+    display: block;
+    margin: 20px auto;
 }
 
 .bg-color {

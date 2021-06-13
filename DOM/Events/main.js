@@ -10,12 +10,16 @@
 // }
 
 var intervalId;
+var bodyNode = document.querySelector("body");
 
 function changeColor() {
-    var bodyNode = document.querySelector("body");
     intervalId = setInterval(function(){
         bodyNode.classList.toggle("bg-color");
     }, 3000);
 };
 
+function turnOff(){
+    clearInterval(intervalId);
+    bodyNode.classList.remove("bg-color")
+};
 
