@@ -1,0 +1,16 @@
+.main-container{
+    position: relative;
+    background-image: url(../img/bg.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: 0 0;
+    height: 100vh;
+}
+
+.mario{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    width: 256px;
+    height: 256px;
+}
