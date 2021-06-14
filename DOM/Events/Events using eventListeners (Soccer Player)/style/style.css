@@ -1,0 +1,23 @@
+#footballField{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/field.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#player{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+#send{
+    position: absolute;
+    top: 99%;
+    left: 95%;
+    background-color: rgb(193,57,43);
+    color: white;
+    padding: 5px 10px;
+}
