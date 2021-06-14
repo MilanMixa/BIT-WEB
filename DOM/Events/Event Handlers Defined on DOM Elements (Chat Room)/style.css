@@ -1,0 +1,45 @@
+.container{
+    width: 33vw;
+    height: 80vh;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    background-color: rgb(245,245,245);
+}
+
+#main{
+    width: 30vw;
+    height: 70vh;
+    border: 1px solid black;
+    overflow-x: hidden;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+
+#send{
+width: 9vw;
+margin-left: 1.5%;
+background-color: rgb(193,57,43);
+color: white;
+border: none;
+padding: 5px;    
+}
+
+#chat{
+    margin: auto;
+    width: 20vw;
+    display: inline-block;
+    border: none;
+    padding: 4px;
+    margin-left: 1.5vw;
+    border-radius: 5px;
+}
+
+#chat:focus{
+    outline: none;
+    border: 3px solid rgb(130,187,247);
+}
+
