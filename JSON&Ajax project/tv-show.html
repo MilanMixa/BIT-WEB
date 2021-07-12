@@ -5,43 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style/main.css">
-    <title>BitShow</title>
+    <link rel="stylesheet" href="./style/tv-show.css">
+    <title>Document</title>
 </head>
 <body>
     <header class="bg-dark">
         <nav class="navbar navbar-light bg-dark">
             <div class="container-fluid">
-            <a class="navbar-brand text-light">BitShow</a>
+            <a class="navbar-brand text-light" href="./index.html">BitShow</a>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             </form>
             </div>
         </nav>
     </header>
-
-
-    
     <main>
-        <h2>Popular Shows</h2>
-        <div class="main-div">
-
+        <h1></h1>
+        <div class="main-container">
+            <div class="imageDiv">
+            </div>
+            <div class="info">
+                <div class="seasons">
+                    <h4 id="seasonTitle"></h4>
+                    <ul class="season-date"></ul>
+                </div>
+                <div class="cast">
+                    <h4 id="castTitle">Cast</h4>
+                    <ul class="castList"></ul>
+                </div>
+            </div>
+            <div class="description">
+                <h4>Show Details</h4>
+                <p class="showInfo"></p>
+            </div>
         </div>
-
     </main>
-
     <footer>
         <small>Copyright &copy; Bit Student 2021</small>
     </footer>
 
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-    <script src="./javascript/main.js"></script>
+    <script src="./javascript/tv-show.js"></script>
     <script src="./javascript/search.js"></script>
-    
 </body>
 </html>

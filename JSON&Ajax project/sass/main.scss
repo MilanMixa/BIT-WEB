@@ -10,11 +10,11 @@ h2 {
     text-align: center;
     margin-bottom: 50px;
 }
-​
+
 main {
     width: 40%;
-    margin:0 auto;
-    .main-div {
+    margin: 0 auto;
+    .main-div{
         display: flex;
         flex-wrap: wrap;
     }
@@ -26,18 +26,19 @@ main {
         padding: 15px;
         margin: 5px;
     }
+
     h4 {
         padding-top: 10px;
         color: rgb(51, 126, 247);
     }
-    
 }
-footer {
-    background-color: rgb(33,37,41);
+
+footer{
+    background-color: rgb(33, 37, 41);
     padding: 25px 0;
     text-align: center;
     margin-top: 30px;
-    small {
+    small{
         color: white;
     }
 }

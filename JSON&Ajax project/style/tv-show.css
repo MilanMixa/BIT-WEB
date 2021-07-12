@@ -1,0 +1,37 @@
+header {
+  width: 100%; }
+  header nav {
+    width: 70%;
+    margin: 0 auto; }
+
+main {
+  width: 65%;
+  margin: 0 auto; }
+  main h1 {
+    text-align: center;
+    margin-bottom: 20px; }
+  main .main-container {
+    display: flex;
+    flex-wrap: wrap; }
+  main .imageDiv {
+    width: 60%;
+    margin-right: 15px; }
+    main .imageDiv img {
+      width: 100%;
+      height: 100%;
+      padding: 30px; }
+  main .info {
+    width: 35%;
+    padding: 20px; }
+  main .description h4 {
+    margin-bottom: 20px; }
+
+footer {
+  background-color: #212529;
+  padding: 25px 0;
+  text-align: center;
+  margin-top: 30px; }
+  footer small {
+    color: white; }
+
+/*# sourceMappingURL=tv-show.css.map */

@@ -1,0 +1,38 @@
+@charset "UTF-8";
+header {
+  width: 100%; }
+  header nav {
+    width: 45%;
+    margin: 0 auto; }
+
+​
+h2 {
+  text-align: center;
+  margin-bottom: 50px; }
+
+main {
+  width: 40%;
+  margin: 0 auto; }
+  main .main-div {
+    display: flex;
+    flex-wrap: wrap; }
+  main .tv-div {
+    cursor: pointer;
+    width: 31%;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 5px; }
+  main h4 {
+    padding-top: 10px;
+    color: #337ef7; }
+
+footer {
+  background-color: #212529;
+  padding: 25px 0;
+  text-align: center;
+  margin-top: 30px; }
+  footer small {
+    color: white; }
+
+/*# sourceMappingURL=main.css.map */
