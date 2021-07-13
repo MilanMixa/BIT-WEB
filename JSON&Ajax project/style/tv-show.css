@@ -3,6 +3,29 @@ header {
   header nav {
     width: 70%;
     margin: 0 auto; }
+  header .search-form {
+    position: relative; }
+    header .search-form div.search-result {
+      position: absolute;
+      width: 204px;
+      background: #fff;
+      box-shadow: 0px 0 20px 1px grey;
+      border-radius: 4px;
+      top: 38px; }
+    header .search-form div.search-result ul {
+      padding-left: 0;
+      margin-bottom: 0; }
+    header .search-form div.search-result li {
+      list-style: none;
+      padding: 5px;
+      border-bottom: 1px solid lightgray; }
+    header .search-form div.search-result li:last-child {
+      border-bottom: none; }
+    header .search-form div.search-result li:hover {
+      background-color: #e7e6e6; }
+    header .search-form div.search-result a {
+      text-decoration: none;
+      color: black; }
 
 main {
   width: 65%;
