@@ -1,4 +1,4 @@
-const endpoint = "http://api.tvmaze.com/shows";
+const endpoint = "https://api.tvmaze.com/shows";
 let main = document.querySelector(".main-div");
 let top50 = {};
 
