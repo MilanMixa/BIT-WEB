@@ -1,54 +1,68 @@
-@charset "UTF-8";
 header {
-  width: 100%; }
+  background-color: #212529;
+  padding: 15px 0px; }
   header nav {
-    width: 45%;
+    width: 70%;
     margin: 0 auto; }
+  header h1 {
+    color: white; }
   header .search-form {
     position: relative; }
-    header .search-form div.search-result {
+    header .search-form .search-result {
       position: absolute;
-      width: 204px;
+      width: 100%;
       background: #fff;
       box-shadow: 0px 0 20px 1px grey;
       border-radius: 4px;
       top: 38px; }
-    header .search-form div.search-result ul {
+    header .search-form .search-result ul {
       padding-left: 0;
       margin-bottom: 0; }
-    header .search-form div.search-result li {
+    header .search-form .search-result li {
       list-style: none;
       padding: 5px;
       border-bottom: 1px solid lightgray; }
-    header .search-form div.search-result li:last-child {
+    header .search-form .search-result li:last-child {
       border-bottom: none; }
-    header .search-form div.search-result li:hover {
+    header .search-form .search-result li:hover {
       background-color: #e7e6e6; }
-    header .search-form div.search-result a {
+    header .search-form .search-result a {
       text-decoration: none;
       color: black; }
-
-​
-h2 {
-  text-align: center;
-  margin-bottom: 50px; }
+    header .search-form #search {
+      border: none;
+      border-radius: 5px;
+      padding: 6px;
+      outline: none;
+      width: 100%; }
 
 main {
-  width: 40%;
+  width: 60%;
   margin: 0 auto; }
   main .main-div {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  main h2 {
+    text-align: center;
+    margin: 50px; }
   main .tv-div {
     cursor: pointer;
-    width: 31%;
-    border: 1px solid #cacaca;
-    border-radius: 5px;
-    padding: 15px;
-    margin: 5px; }
-  main h4 {
-    padding-top: 10px;
-    color: #337ef7; }
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background-color: #212529;
+    box-shadow: 7px -3px 14px 0px rgba(0, 0, 0, 0.79); }
+    main .tv-div img {
+      width: 100%;
+      border-radius: 5px; }
+    main .tv-div h4 {
+      padding-top: 10px;
+      color: antiquewhite;
+      word-break: break-all;
+      text-align: center; }
+    main .tv-div:hover {
+      transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      transform: translateY(0) scale(1.1); }
 
 footer {
   background-color: #212529;
@@ -57,5 +71,17 @@ footer {
   margin-top: 30px; }
   footer small {
     color: white; }
+
+@media screen and (min-width: 600px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+  main .tv-div {
+    width: 40%; } }
+@media screen and (min-width: 1200px) {
+  main .tv-div {
+    width: 30%; } }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,5 @@
 let tvShowId = window.localStorage.id;
-document.querySelector("h1").innerText = window.localStorage.show;
+document.querySelector("h2").innerText = window.localStorage.show;
 const tvImg = document.createElement("img");
 let imgsrc = localStorage.getItem("tv-image")
 tvImg.setAttribute("src", imgsrc);
